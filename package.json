@@ -1,0 +1,30 @@
+{
+  "name": "github",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ogenyi25/deep-coder.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "node",
+    "express"
+  ],
+  "author": "otor john",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ogenyi25/deep-coder/issues"
+  },
+  "homepage": "https://github.com/Ogenyi25/deep-coder#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^1.18.9"
+  }
+}
