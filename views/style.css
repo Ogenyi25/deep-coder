@@ -1,0 +1,9 @@
+body {
+    background: url("../public/images/me.jpg");
+  background-color:gray;
+}
+
+.error {
+    color:red;
+    text-align: center;
+}

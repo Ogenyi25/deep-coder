@@ -1,0 +1,37 @@
+<% include partials/header %>
+<body>
+  <form action="/signup" method="POST">
+    <div class="form-group">
+      <label for="exampleInputEmail1">First Name</label>
+      <input name="firstName" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+        placeholder="Your First Name">
+    </div>
+    <div class="form-group">
+      <label for="exampleInputEmail1">Last Name</label>
+      <input name="lastName" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+        placeholder="Your Last Name">
+    </div>
+    <div class="form-group">
+      <label for="exampleInputEmail1">Email address</label>
+      <input name="emailAddress" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+        placeholder="example: name01@gmail.com">
+      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1">Password</label>
+      <input name="password" type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1">Phone Number</label>
+      <input name="phoneNumber" type="phoneNumber" class="form-control" id="exampleInputPassword1" placeholder="example: 080********">
+    </div>
+    <div class="form-group form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+    </div>
+    <p class="error" >Error message</p>
+    <button type="submit" class="btn btn-success">Confirm identity</button>
+  </form>
+
+
+  <% include partials/footer %>
